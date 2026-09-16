@@ -1,0 +1,27 @@
+{
+  "name": "blinkwork",
+  "version": "0.1.0",
+  "description": "Connect Cursor / Grok Bot to BlinkWork MCP. Get a token at blinkwork.com/settings/tokens, then configure BLINKWORK_API_TOKEN.",
+  "author": {
+    "name": "Mindvalley"
+  },
+  "keywords": [
+    "blinkwork",
+    "mcp",
+    "teammates"
+  ],
+  "homepage": "https://blinkwork.com",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "BLINKWORK_API_TOKEN": {
+        "type": "string",
+        "title": "BlinkWork API token",
+        "description": "Access token from https://www.blinkwork.com/settings/tokens (Settings → Access Tokens). Set via Plugins → Configure; never paste in chat."
+      }
+    },
+    "required": [
+      "BLINKWORK_API_TOKEN"
+    ]
+  }
+}

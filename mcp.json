@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "blinkwork": {
+      "url": "https://api.blinkwork.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${BLINKWORK_API_TOKEN}"
+      }
+    }
+  }
+}
