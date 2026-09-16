@@ -11,6 +11,7 @@
     "teammates"
   ],
   "homepage": "https://blinkwork.com",
+  "logo": "assets/logo.svg",
   "variables": {
     "type": "object",
     "properties": {
